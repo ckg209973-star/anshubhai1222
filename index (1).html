@@ -3,7 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Anshu Report</title>
+<title>Malik Prediction</title>
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '878421418329678');
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=878421418329678&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Meta Pixel Code -->
 
 <style>
 *{
@@ -15,140 +34,145 @@
 
 body{
     height:100vh;
+    background: url('https://images.unsplash.com/photo-1508098682722-e99c43a406b2') no-repeat center center/cover;
+    position:relative;
     display:flex;
     justify-content:center;
     align-items:center;
-    background:linear-gradient(180deg,#ff2e7a,#c2185b);
-}
-
-/* Main Card */
-.card{
-    width:350px;
-    padding:30px 20px;
-    background:linear-gradient(145deg,#7b1b4d,#5a1438);
-    border-radius:25px;
     text-align:center;
-    box-shadow:0 20px 40px rgba(0,0,0,0.4);
     color:white;
 }
 
-/* Profile Image Circle */
-.logo{
-    width:150px;
-    height:150px;
-    margin:0 auto 20px;
-    border-radius:50%;
-    overflow:hidden;
-    position:relative;
-    box-shadow:0 0 25px #00f7ff;
-}
-
-.logo img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-}
-
-.logo::before{
+body::before{
     content:"";
     position:absolute;
-    width:170px;
-    height:170px;
-    border-radius:50%;
-    border:6px solid #00f7ff;
-    top:-10px;
-    left:-10px;
-    box-shadow:0 0 30px #00f7ff;
-}
-
-/* Heading */
-.card h2{
-    color:#00f7ff;
-    font-size:28px;
-    letter-spacing:2px;
-    margin-bottom:5px;
-}
-
-.card p{
-    font-size:15px;
-    opacity:0.8;
-    margin-bottom:20px;
-}
-
-/* Timer */
-.timer{
-    font-size:55px;
-    color:#ffc400;
-    font-weight:bold;
-}
-
-.seconds{
-    font-size:14px;
-    margin-bottom:20px;
-}
-
-/* Button */
-.btn{
-    display:inline-block;
-    padding:15px 20px;
+    top:0;
+    left:0;
     width:100%;
-    border-radius:15px;
-    background:linear-gradient(90deg,#00f7ff,#2196f3);
-    color:black;
+    height:100%;
+    background:rgba(0,0,0,0.65);
+    z-index:0;
+}
+
+.container{
+    position:relative;
+    z-index:1;
+    padding:20px;
+    width:90%;
+    max-width:500px;
+}
+
+h1{
+    font-size:50px;
+    font-weight:900;
+    letter-spacing:4px;
+    margin-bottom:15px;
+}
+
+.highlight{
+    color:#ffc107;
+    font-size:22px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+.desc{
+    font-size:18px;
+    margin:8px 0;
+}
+
+.join-btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:15px 30px;
+    background:#1e88e5;
+    color:white;
+    font-size:20px;
     font-weight:bold;
     text-decoration:none;
-    font-size:16px;
+    border-radius:6px;
+    border-bottom:6px solid #0d47a1;
     transition:0.3s;
 }
 
-.btn:hover{
+.join-btn:hover{
+    background:#1565c0;
     transform:scale(1.05);
-    box-shadow:0 0 20px #00f7ff;
 }
 
-.footer{
-    margin-top:20px;
+.countdown{
+    margin-top:40px;
+}
+
+.countdown h2{
+    font-size:80px;
+    font-weight:bold;
+}
+
+.countdown p{
+    font-size:24px;
+    color:#ccc;
+}
+
+.ads-box{
+    position:fixed;
+    bottom:10px;
+    left:50%;
+    transform:translateX(-50%);
+    background:rgba(0,0,0,0.8);
+    padding:8px 15px;
+    border-radius:6px;
     font-size:14px;
-    opacity:0.8;
+}
+
+.ads-box a{
+    color:#00ff88;
+    text-decoration:none;
+    font-weight:bold;
 }
 </style>
 </head>
 
 <body>
 
-<div class="card">
+<div class="container">
 
-    <!-- Profile Photo -->
-    <div class="logo">
-        <img src="your-photo.jpg" alt="Profile">
-    </div>
+    <h1>MALIK PREDICTION</h1>
 
-    <h2>ANSHU REPORT</h2>
-    <p>Official Telegram Channel</p>
+    <div class="highlight">India’s No.1 Cricket Analyst</div>
 
-    <div class="timer" id="countdown">46</div>
-    <div class="seconds">Seconds Left</div>
+    <div class="desc">IPL 2026 – Smart Match Analysis</div>
+    <div class="desc">ICC T20 WC 2026 – Consistent Match Reports</div>
 
-    <a href="https://t.me/+zZdHbeweUK8wYzVl" target="_blank" class="btn">
-        JOIN TELEGRAM CHANNEL
+    <a href="https://t.me/+tNbnFDyEF0cxYWQ1" target="_blank" class="join-btn">
+        JOIN TELEGRAM FREE
     </a>
 
-    <div class="footer">
-        Stay connected with ANSHU REPORT
+    <div class="countdown">
+        <h2 id="timer">13</h2>
+        <p>Seconds Left</p>
     </div>
 
 </div>
 
-<script>
-let time = 46;
-let countdown = document.getElementById("countdown");
+<div class="ads-box">
+    Ads By 
+    <a href="https://t.me/CAPTAIN4433" target="_blank">
+        @CAPTAIN4433
+    </a>
+</div>
 
-let timer = setInterval(function(){
-    time--;
-    countdown.innerHTML = time;
-    if(time <= 0){
-        clearInterval(timer);
-        countdown.innerHTML = "0";
+<script>
+let timeLeft = 13;
+let timer = document.getElementById("timer");
+
+let countdown = setInterval(function(){
+    timeLeft--;
+    timer.innerHTML = timeLeft;
+
+    if(timeLeft <= 0){
+        clearInterval(countdown);
+        timer.innerHTML = "0";
     }
 },1000);
 </script>
